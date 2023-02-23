@@ -17,8 +17,8 @@ def sendData(payload, fPort, confirmedDownlink, priority, schedule):
 
 
     # POST
-    url = 'https://eu1.cloud.thethings.network/api/v3/as/applications/' + config.applicationName + '/webhooks/' + config.webhookName + '/devices/' + config.endDeviceName + '/down/'+ schedule
-    header = {'Authorization': 'Bearer ' + config.personalAPIKey, 
+    url = 'https://eu1.cloud.thethings.network/api/v3/as/applications/' + config.applicationName + '/devices/' + config.endDeviceName + '/down/'+ schedule
+    header = {'Authorization': 'Bearer ' + config.APIKey, 
             'Content-Type': 'application/json',
             'User-Agent': 'my-integration/my-integration-version'
             }
