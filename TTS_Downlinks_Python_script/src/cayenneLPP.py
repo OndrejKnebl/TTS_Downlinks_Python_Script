@@ -24,7 +24,7 @@ sensor_types = {
     'addDirection' : {'type':"84", 'size':2, 'multipl':1, 'signed':False, 'min':0, 'max':65535, 'arrLen':3},
     'addUnixTime' : {'type':"85", 'size':4, 'multipl':1, 'signed':False, 'min':0, 'max':4294967295, 'arrLen':3},
     'addGyrometer' : {'type':"86", 'size':6, 'multipl':100, 'signed':True, 'min':-327.67, 'max':327.67, 'arrLen':5},
-	'addColour' : {'type':"87", 'size':1, 'multipl':1, 'signed':False, 'min':0, 'max':255, 'arrLen':5}, # size changed
+    'addColour' : {'type':"87", 'size':1, 'multipl':1, 'signed':False, 'min':0, 'max':255, 'arrLen':5}, # size changed
     'addGPS' : {'type':"88", 'size':9, 'multipl_l_l' : 10000, 'multipl_alt' : 100, 'signed': True, 'min_l_l':-838.8607, 'max_l_l':838.8607, 'min_alt':-83886.07, 'max_alt':83886.07, 'arrLen':5},
     'addSwitch' : {'type':"8E", 'size':1, 'multipl':1, 'signed':False, 'min':0, 'max':255, 'arrLen':3}
 }
