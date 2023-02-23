@@ -1,5 +1,4 @@
 # TTS Information
-personalAPIKey = ""
+APIKey = ""
 applicationName = ""
-webhookName = ""
 endDeviceName = ""
