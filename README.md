@@ -11,4 +11,4 @@ On The Things Network’s public community network a Fair Use Policy applies whi
 More information can be found on the website:  https://www.thethingsnetwork.org/docs/lorawan/duty-cycle/#fair-use-policy
 
 ## More information
-- The payload is encoded in the Cayenne LPP format. For more information about our Cayenne LPP encoder in Python, see this tutorial: https://lora.vsb.cz/index.php/cayenne-lpp-encoder-in-python/
+The payload is encoded in the Cayenne LPP format. For more information about our Cayenne LPP encoder in Python, see this tutorial: https://lora.vsb.cz/index.php/cayenne-lpp-encoder-in-python/
