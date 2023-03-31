@@ -131,6 +131,7 @@ def encodeCayenneLPP(lpp):
             
             if error == False:
                 payload += onePayload
+                onePayload = ""
             else:
                 onePayload = ""
 
