@@ -34,7 +34,6 @@ def encodeCayenneLPP(lpp):
 
     payload = ""
     onePayload = ""
-    duplicityDict = {}
 
 
     for i in range(0,len(lpp)):
@@ -57,15 +56,6 @@ def encodeCayenneLPP(lpp):
                 continue
             
             
-            # check for same channel and type
-            if lpp[i][1] in duplicityDict:
-                if duplicityDict[lpp[i][1]] == lpp[i][0]:
-                    print("Duplicity! Channel number " + str(lpp[i][0]) + " and type " + str(lpp[i][1]) + " have already been added!")
-                    continue
-
-            duplicityDict[lpp[i][1]] = lpp[i][0]
-
-
             onePayload += sensorInfo.get("type")        # sensor type
 
 
